@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>JS Event Playground 🎮</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Welcome to the JavaScript Playground!</h1>
+    <p>Click, hover, type – let the magic begin!</p>
+  </header>
+
+  <main>
+    <!-- Event Handling Section -->
+    <section>
+      <h2>Event Handling</h2>
+      <button id="click-me">Click Me</button>
+      <div id="hover-box">Hover over me!</div>
+      <input type="text" id="keypress-input" placeholder="Type something..." />
+      <button id="secret-btn">Double Click Me</button>
+    </section>
+
+    <!-- Interactive Elements -->
+    <section>
+      <h2>Interactive Elements</h2>
+      <button id="color-toggle">Toggle Color</button>
+      <div id="gallery">
+        <img id="gallery-img" src="https://via.placeholder.com/300x200" alt="Gallery Image" />
+        <button id="next-img">Next Image</button>
+      </div>
+
+      <div id="accordion">
+        <button class="accordion-btn">Toggle Info</button>
+        <div class="accordion-content">This is some hidden info revealed by JS!</div>
+      </div>
+    </section>
+
+    <!-- Form Validation -->
+    <section>
+      <h2>Form Validation</h2>
+      <form id="signup-form" novalidate>
+        <label>Email:
+          <input type="email" id="email" required />
+        </label>
+        <span class="feedback" id="email-feedback"></span>
+
+        <label>Password:
+          <input type="password" id="password" required />
+        </label>
+        <span class="feedback" id="password-feedback"></span>
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Vennesa</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
